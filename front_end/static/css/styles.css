@@ -1,0 +1,250 @@
+body,
+ul,
+li {
+    font-family: tahoma;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+}
+
+header {
+    background-color: rgb(102, 93, 23);
+    text-align: center;
+    position: relative;
+    width: 100%;
+}
+
+footer {
+    color: white;
+    width: 100%;
+    background-color: rgb(38, 97, 156);
+    display: inline-block;
+    padding: 2px 0px;
+    position: sticky;
+    top: 0px;
+}
+
+.title {
+    color: white;
+    width: 100%;
+    background-color: rgb(38, 97, 156);
+    display: inline-block;
+    padding: 2px 0px;
+    position: sticky;
+    top: 0px;
+}
+
+.carousel-caption{
+    text-shadow: 0.1em 0.1em 0.2em black
+}
+
+.car{
+    color: white;
+    width: 100%;
+    background-color: rgb(38, 97, 156);
+    display: inline-block;
+    padding: 2px 0px;
+    position: sticky;
+    top: 0px;
+}
+
+.banner {
+    height: 300px;
+    overflow: hidden;
+}
+
+.banner img {
+    margin: 0px 0px 0px 0px;
+    width: 100%;
+}
+
+.novaReserva {
+    background-color: rgb(255, 255, 255);
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: xx-small;
+  
+  
+}
+
+  
+
+.novaReserva:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#novoProfssional{
+
+    margin: 0;
+    border: 1px solid rgb(38, 97, 156);
+    border-radius: 10px;
+    width: 35%;
+    padding: 10px;
+    font-size: 14px;
+}
+
+#novoTelefone {
+   
+    margin: 0;
+    border: 1px solid rgb(38, 97, 156);
+    border-radius: 10px;
+    width: 20%;
+    padding: 10px;
+    font-size: 14px;
+}
+
+#novoEmail {
+ 
+    margin: 0;
+    border: 1px solid rgb(38, 97, 156);
+    border-radius: 10px;
+    width: 30%;
+    padding: 10px;
+    font-size: 14px;
+}
+
+
+#novaSala {
+
+    margin: 0;
+    border: 1px solid rgb(38, 97, 156);
+    border-radius: 10px;
+    width: 20%;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    font-size: 14px;
+}
+
+#novaData_agendamento {
+ 
+    margin: 0;
+    border: 1px solid rgb(38, 97, 156);
+    border-radius: 10px;
+    width: 20%;
+    padding: 10px;
+    font-size: 14px;
+}
+
+#novaHora_agendamento {
+  
+    margin: 0;
+    border: 1px solid rgb(38, 97, 156);
+    border-radius: 10px;
+    width: 25%;
+    padding: 10px;
+    font-size: 14px;
+}
+
+#listaNome {
+
+    width: 28%;
+
+}
+
+#listaTelefone {
+
+    width: 20%;
+
+}
+#listaEmail {
+
+    width: 23%;
+
+}
+
+#listaData {
+
+    width: 10%;
+
+}
+
+#listaSala {
+
+    width: 9%;
+
+}
+
+.addBtn {
+    padding: 9px 10px;
+    background-color: rgb(35, 32, 24);
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 2px;
+}
+
+.addBtn:hover {
+    background-color: #2ab53a;
+    color: white;
+}
+
+.agendamentos {
+    color: rgb(15, 6, 82);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.close {
+    width: 15px;
+}
+
+.close:hover {
+    color: #f44336;
+    font-weight: bolder;
+}
+
+table,
+th,
+td {
+    border: 1px solid #2b6eb1;
+    border-collapse: collapse;
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 10px;
+    font-size: 14px;
+    transition: 0.2s;
+    text-align: start;
+}
+
+tabl{
+    background-color: rgb(30, 11, 11);
+    width: 50%;
+}
+
+tr:nth-child(odd){
+    background-color: #9fc3e7;
+}
+
+th:nth-child(1){
+    width: 80%;
+}
+
+tr:hover {
+    background: #2b6eb1;
+    border: 1px solid #9fc3e7;
+}
+
+.ite {
+     background-color: rgb(231, 241, 232);
+    padding: 30px 40px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+#mensagem {
+    color: rgb(15, 6, 82);
+    font-size: 16px;
+}
+
+#myTable {
+    width: 100%;
+}
